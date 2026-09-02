@@ -55,7 +55,7 @@ requirements:
     - cmake
     - nodejs
     - pkg-config
-    - pnpm
+    - pnpm <12 # needed until https://github.com/conda-forge/pnpm-feedstock/issues/237 is fixed
     - pnpm-licenses
   host:
     - if: linux
